@@ -11,7 +11,7 @@
     <template v-if="isLogin">
       <h1>Let's share</h1>
       <i class="edit el-icon-edit"></i>
-      <img class="avatar" src="https://pic2.zhimg.com/v2-0944a627d17db091fe5b1ea47f3c71dd_r.jpg"/>
+      <img class="avatar" src="https://picx.zhimg.com/v2-6ed527cf5869be3604eebca1f04709be_r.jpg?source=1940ef5c"/>
     </template>
   </header>
 </template>
@@ -36,7 +36,7 @@ header.no-login {
   justify-items: center;
   h1 {
     color: #fff;
-    font-size: 40px;
+    font-size: 60px;
     margin: 60px 0 0 0;
     text-transform: uppercase;
   }
@@ -64,24 +64,23 @@ header.login {
     margin: 0;
     padding: 0;
     color: #fff;
-    font-size: 40px;
+    font-size: 60px;
     text-transform: uppercase;
     flex: 1;
   }
 
   .edit {
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .avatar {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border: 1px solid #fff;
     border-radius: 50%;
     margin-left: 15px;
   }
 }
-
 
 </style>
